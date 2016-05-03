@@ -1,0 +1,19 @@
+body {background-color: #24252b;}
+#main, #bar {
+    margin: auto;
+    width: 60%;
+    left: 20%;
+    background-color: white;
+    border-left: 5px solid white;
+    border-right: 5px solid white;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    border-radius: 5px;
+    font-family: 'Oxygen', sans-serif;
+}
+#bar {
+    text-decoration: none;
+    color: rgb(17, 136, 195);
+    margin-bottom: 1vh;
+    text-align: center;
+}
