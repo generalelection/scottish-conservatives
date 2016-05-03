@@ -17,3 +17,11 @@ body {background-color: #24252b;}
     margin-bottom: 1vh;
     text-align: center;
 }
+
+.manifesto-btn {
+    padding: 5px;
+    color: white;
+    background-color: rgb(17, 136, 195);
+    cursor: hand;
+    cursor: pointer;
+}
