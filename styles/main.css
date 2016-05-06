@@ -3,18 +3,28 @@ background-image: url('../resources/background.jpg');
 background-size: 110vw 210vh;
 background-repeat: no-repeat;
 }
-#main, #bar {
+#main, #bar, #note {
     margin: auto;
     width: 60%;
     left: 20%;
     background-color: white;
-    border-left: 5px solid white;
-    border-right: 5px solid white;
-    border-top: 5px solid white;
-    border-bottom: 5px solid white;
-    border-radius: 5px;
+    border-left: 1vw solid white;
+    border-right: 1vw solid white;
+    border-top: 0.5vh solid white;
+    border-bottom: 0.5vh solid white;
+    border-radius: 0.5em;
     font-family: 'Oxygen', sans-serif;
 }
+
+.copy {
+    text-align: center;
+    font-size: 0.75em;
+}
+
+#main {
+    margin-bottom: 1vh;
+}
+
 #bar {
     text-decoration: none;
     color: rgb(17, 136, 195);
@@ -23,9 +33,14 @@ background-repeat: no-repeat;
 }
 
 .manifesto-btn {
-    padding: 5px;
+    padding: 0.45em;
     color: white;
     background-color: rgb(17, 136, 195);
     cursor: hand;
     cursor: pointer;
+}
+
+.hrefwou {
+    text-decoration: none;
+    color: inherit;
 }
