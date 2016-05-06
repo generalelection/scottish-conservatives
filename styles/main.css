@@ -1,4 +1,8 @@
-body {background-color: #24252b;}
+body {
+background-image: url('../resources/background.jpg');
+background-size: 110vw 210vh;
+background-repeat: no-repeat;
+}
 #main, #bar {
     margin: auto;
     width: 60%;
