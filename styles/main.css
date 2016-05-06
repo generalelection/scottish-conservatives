@@ -2,6 +2,7 @@ body {
 background-image: url('../resources/background.jpg');
 background-size: 110vw 210vh;
 background-repeat: no-repeat;
+background-attachment: fixed;
 }
 #main, #bar, #note {
     margin: auto;
