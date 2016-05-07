@@ -1,7 +1,7 @@
 options:
   formatter: stylish
 files:
-  include: '**/*.s+(a|c)ss'
+  include: '**/*.scss'
 rules:
   # Extends
   extends-before-mixins: 1
@@ -17,7 +17,7 @@ rules:
   single-line-per-selector: 0
 
   # Disallows
-  no-color-keywords: 0
+  no-color-keywords: 1
   no-color-literals: 0
   no-css-comments: 1
   no-debug: 1

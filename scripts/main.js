@@ -12,12 +12,12 @@ function insertDisc(iden){
 
 function bar() {
   var element='';
-  var out='<div style="text-align: center; margin:auto;" class="header"><a href="index.html"><img src="resources/logo.jpg" style="width:20%" /></a><h1><a href="index.html" class="hrefwou">Scottish Conservatives</a></h1></div><table style="text-align:center; margin:auto;"><tr style="text-align:center; margin:auto;">';
+  var out='<div><a href="index.html"><img src="resources/logo.jpg" id="headerlogo" /></a><h1><a href="index.html" class="hrefwou">Scottish Conservatives</a></h1></div><table id="headertable"><tr>';
   var bar='';
   for (i = 0; i < links.length; i++) {
     if (links.length-i > 1) {bar = ' | ';}
     else {bar = '';}
-    out+="<td><a style='text-decoration: none; color: rgb(17, 136, 195);' href='"+links[i][1]+"'>"+links[i][0]+"</a>"+bar+"</td>";
+    out+="<td><a class='hrefwou' href='"+links[i][1]+"'>"+links[i][0]+"</a>"+bar+"</td>";
   }
   out+='</tr></table>';
   $('#bar').html(out);

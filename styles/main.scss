@@ -1,4 +1,5 @@
 $mainblue: rgb(17, 136, 195);
+$white: #fff;
 
 body {
     background: {
@@ -13,18 +14,26 @@ body {
     width: 60%;
     left: 20%;
     background: {
-        color: white;
+        color: $white;
     }
     border: {
-        left: 1vw solid white;
-        right: 1vw solid white;
-        top: .5vh solid white;
-        bottom: .5vh solid white;
+        left: 1vw solid $white;
+        right: 1vw solid $white;
+        top: .5vh solid $white;
+        bottom: .5vh solid $white;
         radius: .5em;
     }
     font: {
         family: 'Oxygen', sans-serif;
     }
+}
+
+#headerlogo {
+    width: 20%;
+}
+
+#headertable {
+    margin: auto;
 }
 
 .copy {
@@ -55,7 +64,7 @@ body {
 
 .manifesto-btn {
     padding: .45em;
-    color: white;
+    color: $white;
     background: {
         color: $mainblue;
     }
