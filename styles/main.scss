@@ -1,0 +1,71 @@
+$mainblue: rgb(17, 136, 195);
+
+body {
+    background: {
+        attachment: fixed;
+        image: url('../resources/background.jpg');
+        repeat: no-repeat;
+        size: 110vw 210vh;
+    }
+}
+#main, #bar, #note {
+    margin: auto;
+    width: 60%;
+    left: 20%;
+    background: {
+        color: white;
+    }
+    border: {
+        left: 1vw solid white;
+        right: 1vw solid white;
+        top: .5vh solid white;
+        bottom: .5vh solid white;
+        radius: .5em;
+    }
+    font: {
+        family: 'Oxygen', sans-serif;
+    }
+}
+
+.copy {
+    text: {
+        align: center;
+    }
+    font: {
+        size: .75em;
+    }
+}
+
+#main {
+    margin: {
+        bottom: 1vh;
+    }
+}
+
+#bar {
+    text: {
+        decoration: none;
+        align: center;
+    }
+    color: $mainblue;
+    margin: {
+        bottom: 1vh;
+    }
+}
+
+.manifesto-btn {
+    padding: .45em;
+    color: white;
+    background: {
+        color: $mainblue;
+    }
+    cursor: hand;
+    cursor: pointer;
+}
+
+.hrefwou {
+    text: {
+        decoration: none;
+    }
+    color: inherit;
+}
