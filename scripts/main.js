@@ -29,3 +29,8 @@ function redir(redirectDestination) {
   window.location.href = redirectDestination;
   return 1;
 }
+
+$(document).ready( function() {
+    $("head").append('<link rel="icon" type="image/png" href="resources/logo.png" />');
+  }
+);
