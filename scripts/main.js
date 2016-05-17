@@ -31,6 +31,6 @@ function redir(redirectDestination) {
 }
 
 $(document).ready( function() {
-    $("head").append('<link rel="icon" type="image/png" href="resources/logo.png" />');
+    $("head").append('<link rel="icon" type="image/jpg" href="resources/logo.jpg" />');
   }
 );
