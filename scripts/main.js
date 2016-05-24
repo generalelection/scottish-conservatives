@@ -3,6 +3,7 @@ var links=[
   ['Home', 'index.html'],
   ['Manifesto', 'manifesto.html'],
   ['Press Release', 'press.html'],
+  ['Election Speech', 'speech.html'],
   ['About Liam', 'aboutliam.html']
   
 ];
